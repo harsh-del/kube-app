@@ -1,4 +1,5 @@
-addr="http://192.168.29.247/cgi-bin/file.py?x="
+ip = 1.2.3.4
+addr="http://"+ip+"/cgi-bin/file.py?x="
 function upload(){
     AWS.config.region = 'ap-south-1'; // 1. Enter your region
     var bucketRegion= 'ap-south-1';

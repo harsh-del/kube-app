@@ -1,4 +1,4 @@
-ip = 
+ip = 1.2.3.4
 addr="http://"+ip+"/cgi-bin/back.py?x="
 function showdeployment() {
     var cpod=document.getElementById("dep_name");

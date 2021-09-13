@@ -1,4 +1,5 @@
-addr="http://192.168.29.247/cgi-bin/back.py?x="
+ip = 1.2.3.4
+addr="http://"+ip+"/cgi-bin/back.py?x="
 function del_env(){
     var z = "kubectl --kubeconfig /kubernetes/admin.conf delete all --all"
     var xhr= new XMLHttpRequest();

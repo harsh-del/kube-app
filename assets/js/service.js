@@ -1,4 +1,5 @@
-addr="http://192.168.29.247/cgi-bin/back.py?x="
+ip = 1.2.3.4
+addr="http://"+ip+"/cgi-bin/back.py?x="
 function showservices() {
     var cpod=document.getElementById("service_name");
     cpod.style.display="none";

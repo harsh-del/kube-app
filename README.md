@@ -1,1 +1,1 @@
-# kube-app
+# kubernetes-app

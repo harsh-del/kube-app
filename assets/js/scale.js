@@ -1,4 +1,5 @@
-addr="http://192.168.29.247/cgi-bin/back.py?x="
+ip = 
+addr="http://"+ip+"/cgi-bin/back.py?x="
 function showdeployment() {
     var cpod=document.getElementById("dep_name");
     cpod.style.display="none";
